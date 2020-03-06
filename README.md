@@ -2,6 +2,8 @@
 
 <p align="center"> a weather sdk.</p>
 
+[![Build Status](https://travis-ci.org/leamiko/weather.svg?branch=master)](https://travis-ci.org/leamiko/weather)
+
 
 ## Installing
 
