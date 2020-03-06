@@ -1,0 +1,30 @@
+{
+    "name": "leamiko\/weather",
+    "description": "a weather sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leamiko",
+            "email": "leamiko@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3",
+        "phpunit/phpunit": "7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leamiko\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leamiko\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
