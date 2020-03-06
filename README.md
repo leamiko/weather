@@ -15,7 +15,19 @@ $ composer require leamiko/weather -vvv
 ```
 ./vendor/bin/phpunit  --filter testGetWeatherWithInvalid
 ```
+
+```
 composer require phpunit/phpunit 7.5
+
+composer require --dev phpunit/phpunit^6.2
+
+composer require --dev mockery/mockery:^1.3
+```
+
+```
+composer remove phpunit/phpunit
+composer require --dev phpunit/phpunit:~5
+```
 
 ## Contributing
 
